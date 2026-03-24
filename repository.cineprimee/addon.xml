@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.cineprimee" name="CINEPRIMEE Repository" version="1.0.0" provider-name="Nk_Dev">
+    <extension point="xbmc.addon.repository" name="CINEPRIMEE Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/NkDev57/cineprimee-repo/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/NkDev57/cineprimee-repo/main/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/NkDev57/cineprimee-repo/main/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Dépôt officiel CINEPRIMEE</summary>
+        <description>Installez et mettez à jour l'extension CINEPRIMEE automatiquement.</description>
+        <platform>all</platform>
+    </extension>
+</addon>

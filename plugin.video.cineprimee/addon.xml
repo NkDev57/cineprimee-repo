@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.cineprimee" name="CINEPRIMEE" version="2026.03.05" provider-name="Nk_Dev">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.resolveurl"/>
+		<import addon="script.module.dateutil"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="resources/main.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.python.module" library="resources" />
+	<extension point="xbmc.addon.metadata">
+		<assets>
+			<icon>icon5.png</icon>
+		</assets>
+	</extension>
+</addon>
